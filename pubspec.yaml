@@ -1,0 +1,26 @@
+name: car_engine_simulator
+description: Accelerometer based car engine sound simulator.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sensors_plus: ^5.0.0
+  just_audio: ^0.9.0
+  flutter_blue_plus: ^1.0.0
+  # Add more as needed
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sounds/
